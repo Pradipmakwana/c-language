@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+ clrscr();
+
+window(1,1,80,25);                                 textbackground(WHITE);
+clrscr();
+
+window(10,10,70,20);
+textbackground(BLACK);
+clrscr();
+
+gotoxy(3,4);
+textcolor(RED+BLINK);
+cprintf("Hello Group  Members My Self makwana Pradip");
+
+getch();
+}
